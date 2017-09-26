@@ -6,8 +6,97 @@
 </head>
 <body>
 {{> template/header }}
-Sub Page<br>
-<button class="goto-main btn btn-primary">Go To Main Page</button>
+    <section class="photo-line">
+        <div class="photo-slide">
+            예시
+        </div>
+    </section>
+    <section class="pet-like main-size">
+        <div class="pet-like-title">
+            자랑하기
+            <br><span>오늘의 내 반려 동물의 이야기</span>
+        </div>
+        <div class="pet-like-board">
+            <ul class="pet-like-board-cont">
+                <li>
+                    <div class="pet-like-cont-img"></div>
+                    <div class="pet-like-cont-tt">제목</div>
+                    <div class="pet-like-cont-w">
+                        글쓴이
+                        <br>2017.00.00 00:00
+                    </div>
+                </li>
+                <li>
+                    <div class="pet-like-cont-img"></div>
+                    <div class="pet-like-cont-tt">제목</div>
+                    <div class="pet-like-cont-w">
+                        글쓴이
+                        <br>2017.00.00 00:00
+                    </div>
+                </li>
+                <li>
+                    <div class="pet-like-cont-img"></div>
+                    <div class="pet-like-cont-tt">제목</div>
+                    <div class="pet-like-cont-w">
+                        글쓴이
+                        <br>2017.00.00 00:00
+                    </div>
+                </li>
+                <li>
+                    <div class="pet-like-cont-img"></div>
+                    <div class="pet-like-cont-tt">제목</div>
+                    <div class="pet-like-cont-w">
+                        글쓴이
+                        <br>2017.00.00 00:00
+                    </div>
+                </li>
+                <li>
+                    <div class="pet-like-cont-img"></div>
+                    <div class="pet-like-cont-tt">제목</div>
+                    <div class="pet-like-cont-w">
+                        글쓴이
+                        <br>2017.00.00 00:00
+                    </div>
+                </li>
+                <li>
+                    <div class="pet-like-cont-img"></div>
+                    <div class="pet-like-cont-tt">제목</div>
+                    <div class="pet-like-cont-w">
+                        글쓴이
+                        <br>2017.00.00 00:00
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="pet-ect main-size">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="dropdown-title">제목 + 내용</span> <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li>글쓴이</li>
+            <li>제목</li>
+        </ul>
+    </section>
 {{> template/footer }}
 </body>
 </html>
