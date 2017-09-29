@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{> template/header }}
+<section class="photo-line">
+    <div class="photo-slide">
+        예시
+    </div>
+</section>
+<section class="pet-like main-size">
+    <div class="pet-like-title">
+        자랑하기
+        <br><span>오늘의 내 반려 동물의 이야기</span>
+    </div>
+    <div class="showoff-delete">
+        <div class="delete-title">삭제하시겠습니까?</div>
+        <div class="delete-input">
+            <input type="password" id="showoff-delete-input" class="form-control" placeholder="비밀번호를 입력해주세요." aria-describedby="basic-addon1">
+        </div>
+        <div class="delete-btn">
+            <button class="btn btn-sm btn-primary">예</button>
+            <button class="btn btn-sm btn-default">아니오</button>
+        </div>
+    </div>
+</section>
+{{> template/footer }}
+</body>
+</html>

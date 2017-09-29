@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{> template/header }}
+<section class="photo-line">
+    <div class="photo-slide">
+        예시
+    </div>
+</section>
+<section class="pet-like main-size">
+    <div class="pet-like-title">
+        자랑하기
+        <br><span>오늘의 내 반려 동물의 이야기</span>
+    </div>
+    <div class="showoff-write">
+        <table class="writer-info">
+            <tr>
+                <td class="writer-info-t">작성자</td>
+                <td class="writer-info-tw">
+                    <input type="text" class="writer-name" placeholder="작성자 이름을 적어주세요" aria-describedby="basic-addon1">
+                </td>
+            </tr>
+            <tr>
+                <td class="writer-info-p">비밀번호</td>
+                <td class="writer-info-pw">
+                    <input type="password" class="writer-name" placeholder="비밀번호를 등록해주세요" aria-describedby="basic-addon1">
+                </td>
+            </tr>
+        </table>
+        <table class="write-title">
+            <tr>
+                <td class="write-title-t">제목</td>
+                <td class="write-title-tw">
+                    <input type="text" class="writer-name" placeholder="작성자 이름을 적어주세요" aria-describedby="basic-addon1">
+                </td>
+            </tr>
+        </table>
+        <div class="write-cont">
+            <textarea class="write-cont-story"></textarea>
+        </div>
+        <div class="form-group sm">
+            <label class="file-select" for="hta-there-background">파일 선택</label>
+            <input class="file-select" type="file" id="showoff-image" accept="image/*">
+        </div>
+        <div class="write-btn">
+            <button class="w-btn btn btn-xs btn-primary">등록</button>
+            <button class="c-btn btn btn-xs btn-default">취소</button>
+        </div>
+    </div>
+</section>
+{{> template/footer }}
+</body>
+</html>

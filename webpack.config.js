@@ -11,8 +11,17 @@ const pages = [{
     html: 'index',
     script: 'main'
 }, {
-    html: 'sub',
-    script: 'sub'
+    html: 'showoff',
+    script: 'showoff'
+}, {
+    html: 'showoff-page',
+    script: 'showoff-page'
+}, {
+    html: 'showoff-delete',
+    script: 'showoff-delete'
+}, {
+    html: 'showoff-write',
+    script: 'showoff-write'
 }];
 
 module.exports = {
